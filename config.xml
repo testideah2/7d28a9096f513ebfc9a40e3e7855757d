@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.yataxi.rabota"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. Работа в Я.Такси водителем</name>
+    <name>Работа в Я.Такси водителем</name>
 
     <description>
         Работа водителем такси. Регситрация
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    <preference name="SplashScreenSpinnerColor" value="#B8B8B8" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -47,10 +47,10 @@
         <icon src="res/android/icon/b45566d0d69201e61e510e3a3184c327.png" density="xxhdpi" />
         <icon src="res/android/icon/7e5ea96aca1b2a7ce9b82ac1f3b81bb4.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/c9012c83951a145a6e953996f6ad0439.png" density="port-hdpi"/>
-        <splash src="res/android/screen/184909ce821d8000f7d3d0d3a3278e76.png" density="port-ldpi"/>
-        <splash src="res/android/screen/d3fbc55d3eed7eb126b14c879c8f1159.png" density="port-mdpi"/>
-        <splash src="res/android/screen/27de6df2b715b34ec299769462323eda.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/6a3b9382aed61444d25a5149d12b3128.png" density="port-hdpi"/>
+        <splash src="res/android/screen/fedaad50fe1b64ffb204c47b95c91d0d.png" density="port-ldpi"/>
+        <splash src="res/android/screen/b6513a2e161eefaefc8fdaf6b9a19cf3.png" density="port-mdpi"/>
+        <splash src="res/android/screen/9dcf8bc9076c03f2937d9a547047b0aa.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
