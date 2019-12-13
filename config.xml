@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.yataxi.rabota"
         versionCode = "10"
-        version     = "1.1.0">
+        version     = "1.2.0">
 
-    <name>Работа в Я.Такси водителем</name>
+    <name>Подключиться к Я Такси</name>
 
     <description>
         Работа водителем такси. Регситрация
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#B8B8B8" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -40,12 +40,12 @@
 
 
     <platform name="android">
-        <icon src="res/android/icon/d6a1ab1f1e4d10c5864a14b23a7ebcd6.png" density="ldpi" />
-        <icon src="res/android/icon/17ace6f33d0d7a6fca142e8304ff2b26.png" density="mdpi" />
-        <icon src="res/android/icon/3f7424684a19e8e4d3969a549c918b5c.png" density="hdpi" />
-        <icon src="res/android/icon/2244306435c63b8ad13fcdeba20edec9.png" density="xhdpi" />
-        <icon src="res/android/icon/b45566d0d69201e61e510e3a3184c327.png" density="xxhdpi" />
-        <icon src="res/android/icon/7e5ea96aca1b2a7ce9b82ac1f3b81bb4.png" density="xxxhdpi" />
+        <icon src="res/android/icon/0af1e17d7a46c9bbcd4f2bb8c657e06a.png" density="ldpi" />
+        <icon src="res/android/icon/6bf64b3db9ea27050964bfd87219c34d.png" density="mdpi" />
+        <icon src="res/android/icon/303a784eb551e2e9b33372d0f7d8196a.png" density="hdpi" />
+        <icon src="res/android/icon/2ba710d328103bbb483ff2b559ddb0d4.png" density="xhdpi" />
+        <icon src="res/android/icon/5e2a2e6a93de72d65e2ffa77cefc611f.png" density="xxhdpi" />
+        <icon src="res/android/icon/8af5e5ff9863cbbf22dbac545f53b734.png" density="xxxhdpi" />
 
         <splash src="res/android/screen/6a3b9382aed61444d25a5149d12b3128.png" density="port-hdpi"/>
         <splash src="res/android/screen/fedaad50fe1b64ffb204c47b95c91d0d.png" density="port-ldpi"/>
